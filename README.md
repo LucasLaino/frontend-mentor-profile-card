@@ -25,8 +25,7 @@ Essa é a solução para o [Profile card component challenge on Frontend Mentor]
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- URL do site: [Profile Card](https://lucaslaino.github.io/profile-card/)
 
 ## Meu processo🚀
 
