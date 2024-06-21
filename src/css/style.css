@@ -2,10 +2,10 @@
 
 body {
   background-color: var(--primary-medium);
+  overflow: hidden;
 }
 
 main {
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,4 +89,11 @@ hr {
   bottom: 10px;
   font-size: 15px;
   text-align: center;
+}
+
+.footer {
+  position: relative;
+  text-align: center;
+  bottom: 20px;
+  font-family:"Kumbh Sans", sans-serif;
 }
