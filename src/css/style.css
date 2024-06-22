@@ -15,13 +15,14 @@ main {
   background-image: url(/src/images/bg-pattern-top.svg),
     url(/src/images/bg-pattern-bottom.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  background-position: right 48vw bottom 50vh, left 50vw top 50vh;
 }
 
 .profile-card {
+  position: relative;
+  background-color: var(--neutral-soft);
   max-width: 350px;
   height: 375px;
-  background-color: var(--neutral-soft);
   border-radius: 15px;
 }
 
@@ -34,9 +35,8 @@ main {
 .victor-image {
   display: flex;
   border-radius: 50%;
-  margin-left: 125px;
-  margin-top: -55px;
-  margin-bottom: 1em;
+  left: 120px;
+  bottom: 180px;
   border: 5px solid #ffffff;
   position: absolute;
 }
@@ -45,7 +45,7 @@ main {
   color: var(--primary-dark);
   font-weight: 700;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 65px;
 }
 
 .age,
@@ -59,10 +59,6 @@ main {
 .nationality {
   font-size: 14px;
   margin-bottom: 30px;
-}
-
-hr {
-  color: var(--neutral-medium);
 }
 
 .profile-info {
@@ -94,6 +90,6 @@ hr {
 .footer {
   position: relative;
   text-align: center;
-  bottom: 20px;
+  bottom: 50px;
   font-family:"Kumbh Sans", sans-serif;
 }
