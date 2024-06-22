@@ -15,7 +15,7 @@ main {
   background-image: url(/src/images/bg-pattern-top.svg),
     url(/src/images/bg-pattern-bottom.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: right 48vw bottom 50vh, left 50vw top 50vh;
+  background-position: right 106% bottom -480%, left 100% top -700%;
 }
 
 .profile-card {
