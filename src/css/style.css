@@ -12,8 +12,8 @@ main {
   height: 100vh;
   font-size: 18px;
   font-family: "Kumbh Sans", sans-serif;
-  background-image: url(/src/images/bg-pattern-top.svg),
-    url(/src/images/bg-pattern-bottom.svg);
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: right 106% bottom -480%, left 100% top -700%;
 }
