@@ -2,6 +2,7 @@
 
 body {
   background-color: var(--primary-medium);
+  font-family: "Kumbh Sans", sans-serif;
   overflow: hidden;
 }
 
@@ -11,7 +12,6 @@ main {
   align-items: center;
   height: 100vh;
   font-size: 18px;
-  font-family: "Kumbh Sans", sans-serif;
   background-image: url(../images/bg-pattern-top.svg),
     url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat, no-repeat;
@@ -26,13 +26,13 @@ main {
   border-radius: 15px;
 }
 
-.background-card-image {
+.profile-card .background-card-image {
   width: 100%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
 
-.victor-image {
+.profile-card .victor-image {
   display: flex;
   border-radius: 50%;
   left: 120px;
@@ -41,55 +41,46 @@ main {
   position: absolute;
 }
 
-.name {
+.profile-card .name {
   color: var(--primary-dark);
   font-weight: 700;
   text-align: center;
   margin-top: 65px;
 }
 
-.age,
-.nationality {
+.profile-card .age, .nationality {
   color: var(--primary-soft);
   font-weight: 400;
   text-align: center;
   margin-top: 10px;
 }
 
-.nationality {
+.profile-card .nationality {
   font-size: 14px;
   margin-bottom: 30px;
 }
 
-.profile-info {
+.profile-card .profile-info {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
 }
 
-.numb {
+.profile-card .profile-info .numb {
   color: var(--primary-dark);
   font-weight: 700;
   margin-top: 1.4rem;
 }
 
-.info {
+.profile-card .profile-info .info {
   color: var(--primary-soft);
   font-size: 12px;
   letter-spacing: 1px;
-}
-
-.atribution {
-  position: absolute;
-  bottom: 10px;
-  font-size: 15px;
-  text-align: center;
 }
 
 .footer {
   position: relative;
   text-align: center;
   bottom: 50px;
-  font-family:"Kumbh Sans", sans-serif;
 }
